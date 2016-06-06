@@ -1,0 +1,20 @@
+{
+  "name": "sainsburys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "run_dev": "NODE_ENV=development node lib/server.js"
+  },
+  "author": "marc rivelles",
+  "license": "ISC",
+  "devDependencies": {
+    "bunyan": "^1.8.1",
+    "chai": "^3.5.0",
+    "express": "^4.13.4",
+    "mocha": "^2.5.3",
+    "request": "^2.72.0",
+    "superagent": "^2.0.0"
+  }
+}
